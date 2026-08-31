@@ -1,5 +1,5 @@
 const API_URL = "http://127.0.0.1:8000/api/tasks";
-const EMPTY_MESSAGE = "표시할 할 일이 없습니다.";
+const EMPTY_MESSAGE = "조건에 맞는 할 일이 없습니다.";
 
 const form = document.querySelector("#task-form");
 const titleInput = document.querySelector("#task-title");
@@ -78,4 +78,3 @@ form.addEventListener("submit", async (event) => {
 
 filterSelect.addEventListener("change", loadTasks);
 loadTasks();
-
