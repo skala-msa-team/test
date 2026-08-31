@@ -1,1 +1,1 @@
-message=OMGimin 작업 Branch 문구
+message=OMGimin 개인 base Branch 문구
