@@ -12,3 +12,11 @@ assignees: ""
 
 ## 완료 조건
 
+## 작업 정보
+
+- Type: Bug
+- Priority:
+- 담당자:
+- Milestone:
+- 기준 브랜치: `dev`
+- 작업 브랜치: `fix/이슈번호-영어-작업명`

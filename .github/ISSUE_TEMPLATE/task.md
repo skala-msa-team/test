@@ -13,5 +13,14 @@ assignees: ""
 
 ## 완료 조건
 
-## 관련 자료
+## 작업 정보
 
+- Type: Task
+- Priority:
+- 담당자:
+- Milestone:
+- 기준 브랜치: `dev`
+- 작업 브랜치: `type/이슈번호-영어-작업명`
+- 상위 Issue:
+
+## 관련 자료

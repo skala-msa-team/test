@@ -10,9 +10,15 @@ assignees: ""
 
 ## 하위 작업
 
-- [ ] Task Issue 생성
+- [ ] Task Issue를 생성하고 Sub-issue로 연결
+
+## 작업 정보
+
+- Type: Feature
+- Priority:
+- 담당자:
+- Milestone:
 
 ## 완료 조건
 
 ## 관련 자료
-

@@ -33,12 +33,12 @@ python3 -m unittest discover -s backend -p "test_*.py"
 ## 연습 순서
 
 1. 본인에게 배정된 Issue를 확인합니다.
-2. 최신 `dev`에서 Issue 번호가 포함된 Branch를 만듭니다.
-3. 개발하고 테스트합니다.
-4. Conventional Commits 형식으로 Commit합니다.
-5. `dev`를 base로 PR을 만듭니다.
-6. 다른 팀원의 Review를 받은 뒤 Merge합니다.
-7. Project 상태를 Done으로 변경합니다.
+2. Project 상태를 `In Progress`로 변경합니다.
+3. 최신 `dev`에서 Issue 번호가 포함된 Branch를 만듭니다.
+4. 개발하고 테스트합니다.
+5. Conventional Commits 형식으로 Commit합니다.
+6. `dev`를 base로 PR을 만들고 상태를 `In Review`로 변경합니다.
+7. 다른 팀원의 Review를 받은 뒤 Squash and merge합니다.
+8. Issue가 닫혔는지 확인하고 상태를 `Done`으로 변경합니다.
 
 자세한 규칙은 [CONTRIBUTING.md](CONTRIBUTING.md)를 확인합니다.
-
