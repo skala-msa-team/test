@@ -11,26 +11,45 @@
 
 ## Branch
 
-- 형식: `type/이슈번호-영어-작업명`
-- 예시: `feat/12-task-form`
+- 형식: `type/이슈번호-영역-영어-작업명`
+- Frontend 예시: `feat/12-frontend-task-form`
+- Backend 예시: `feat/13-backend-task-api`
+- 연동 예시: `fix/14-integration-task-flow`
 - 작업 Branch는 최신 `dev`에서 만듭니다.
+- Frontend와 Backend 작업은 서로 다른 Task와 Branch로 진행합니다.
 
 ## Commit
 
-Conventional Commits를 사용합니다. type은 영어, 제목과 본문은 한국어로 작성합니다.
+Conventional Commits를 사용합니다. type과 scope는 영어, 제목과 본문은 한국어로 작성합니다. scope는 생략할 수 없습니다.
 
 ```text
-feat: 할 일 입력 폼 추가
+feat(frontend): 할 일 입력 폼 추가
 
 빈 입력 검증과 등록 버튼을 구현했습니다.
 ```
 
 사용할 type은 `feat`, `fix`, `refactor`, `docs`, `test`, `style`, `chore`입니다.
 
+사용할 scope는 다음과 같습니다.
+
+- `frontend`: `frontend/` 변경
+- `backend`: `backend/` 변경
+- `database`: Database와 Migration 변경
+- `ai`: AI Prompt, Mock AI, AI 연동 변경
+- `docs`: 문서만 변경
+- `design`: 디자인 시스템과 디자인 산출물 변경
+- `qa`: 테스트와 QA 변경
+- `integration`: Frontend·Backend 연동 변경
+- `common`: 공통 설정과 저장소 전체 변경
+
+Frontend와 Backend 변경은 각각 별도 Commit으로 작성합니다. 한 PR에 두 영역을 함께 넣지 않으며, 연동이 필요하면 별도 Integration Task와 PR을 만듭니다.
+
 ## Pull Request
 
 - base: `dev`
 - 제목: `[영역] type: 한국어 제목`
+- Frontend 제목 예시: `[FE] feat: 할 일 입력 화면 추가`
+- Backend 제목 예시: `[BE] feat: 할 일 등록 API 추가`
 - 본문: 한국어
 - 관련 Issue: `Closes #이슈번호`
 - Review와 테스트를 통과한 뒤 Squash and merge

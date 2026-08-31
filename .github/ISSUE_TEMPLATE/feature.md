@@ -11,6 +11,8 @@ assignees: ""
 ## 하위 작업
 
 - [ ] Task Issue를 생성하고 Sub-issue로 연결
+- [ ] Frontend와 Backend가 모두 필요하면 각각 별도 Task로 생성
+- [ ] 연동이 필요하면 별도 Integration Task로 생성
 
 ## 작업 정보
 

@@ -8,6 +8,12 @@ assignees: ""
 
 ## 오류 내용
 
+## 작업 영역
+
+- [ ] Frontend Commit: `fix(frontend): 한국어 제목`
+- [ ] Backend Commit: `fix(backend): 한국어 제목`
+- [ ] Integration Commit: `fix(integration): 한국어 제목`
+
 ## 재현 방법
 
 ## 완료 조건
@@ -19,4 +25,4 @@ assignees: ""
 - 담당자:
 - Milestone:
 - 기준 브랜치: `dev`
-- 작업 브랜치: `fix/이슈번호-영어-작업명`
+- 작업 브랜치: `fix/이슈번호-영역-영어-작업명`
