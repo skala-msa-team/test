@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>팀 할 일 보드</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="app-shell">
+      <header>
+        <p class="eyebrow">GitHub Collaboration Practice</p>
+        <h1>팀 할 일 보드</h1>
+        <p>Issue부터 PR Merge까지 작은 기능으로 연습해 보세요.</p>
+      </header>
+
+      <section class="panel" aria-labelledby="task-form-title">
+        <h2 id="task-form-title">할 일 추가</h2>
+        <form id="task-form">
+          <label for="task-title">할 일</label>
+          <div class="form-row">
+            <input id="task-title" name="title" maxlength="60" placeholder="예: PR Review 받기" />
+            <button type="submit">추가</button>
+          </div>
+          <p id="form-message" class="message" role="alert"></p>
+        </form>
+      </section>
+
+      <section class="panel" aria-labelledby="task-list-title">
+        <div class="section-heading">
+          <h2 id="task-list-title">할 일 목록</h2>
+          <select id="task-filter" aria-label="할 일 상태 필터">
+            <option value="all">전체</option>
+            <option value="active">진행 중</option>
+            <option value="completed">완료</option>
+          </select>
+        </div>
+        <ul id="task-list" class="task-list"></ul>
+        <p id="empty-message" class="empty-message" hidden>표시할 할 일이 없습니다.</p>
+      </section>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
+
