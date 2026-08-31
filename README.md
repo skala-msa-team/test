@@ -12,6 +12,8 @@ Issue, Branch, Commit, Pull Request, Review, Merge와 Project Board를 연습하
 
 - 작업은 `Issue 하나 → Branch 하나 → PR 하나`로 진행합니다.
 - Frontend와 Backend는 같은 Feature여도 Task, Branch, Commit, PR을 분리합니다.
+- Frontend Branch 예시: `feat/frontend-12-task-form`
+- Backend Branch 예시: `feat/backend-13-task-api`
 - Frontend 작업은 `frontend/`, Backend 작업은 `backend/`만 수정합니다.
 - Frontend와 Backend가 각각 `dev`에 병합된 뒤 별도 Integration Task에서 연동합니다.
 - Commit은 반드시 `type(scope): 한국어 제목` 형식으로 작성합니다.
@@ -47,7 +49,7 @@ python3 -m unittest discover -s backend -p "test_*.py"
 
 1. 본인에게 배정된 Issue를 확인합니다.
 2. Project 상태를 `In Progress`로 변경합니다.
-3. 최신 `dev`에서 Issue 번호가 포함된 Branch를 만듭니다.
+3. 최신 `dev`에서 `type/작업영역-이슈번호-영어-작업명` 형식의 Branch를 만듭니다.
 4. 개발하고 테스트합니다.
 5. `type(scope): 한국어 제목` 형식으로 Commit합니다.
 6. `dev`를 base로 PR을 만들고 상태를 `In Review`로 변경합니다.

@@ -11,12 +11,14 @@
 
 ## Branch
 
-- 형식: `type/이슈번호-영역-영어-작업명`
-- Frontend 예시: `feat/12-frontend-task-form`
-- Backend 예시: `feat/13-backend-task-api`
-- 연동 예시: `fix/14-integration-task-flow`
+- 형식: `type/작업영역-이슈번호-영어-작업명`
+- Frontend 예시: `feat/frontend-12-task-form`
+- Backend 예시: `feat/backend-13-task-api`
+- 연동 예시: `fix/integration-14-task-flow`
+- API 문서 예시: `docs/api-15-spec`
 - 작업 Branch는 최신 `dev`에서 만듭니다.
-- Frontend와 Backend 작업은 서로 다른 Task와 Branch로 진행합니다.
+- 같은 기능이어도 Frontend와 Backend는 서로 다른 Task Issue 번호와 Branch로 진행합니다.
+- Frontend Branch에서는 `frontend/`만, Backend Branch에서는 `backend/`만 수정합니다.
 
 ## Commit
 

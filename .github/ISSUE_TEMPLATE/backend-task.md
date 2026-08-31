@@ -26,7 +26,7 @@ assignees: ""
 - 담당자:
 - Milestone:
 - 기준 브랜치: `dev`
-- 작업 브랜치: `type/이슈번호-backend-영어-작업명`
+- 작업 브랜치: `type/backend-이슈번호-영어-작업명`
 - 상위 Issue:
 
 ## 관련 자료

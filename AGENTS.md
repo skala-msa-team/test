@@ -20,6 +20,8 @@
 
 - 작업은 Issue 하나, Branch 하나, PR 하나로 진행합니다.
 - 작업 Branch는 최신 `dev`에서 만듭니다.
+- Branch는 `type/작업영역-이슈번호-영어-작업명` 형식으로 만듭니다.
+- Frontend는 `feat/frontend-12-task-form`, Backend는 `feat/backend-13-task-api`처럼 type 다음에 작업 영역을 표시합니다.
 - Commit은 반드시 `type(scope): 한국어 제목` 형식으로 작성합니다.
 - Frontend scope는 `frontend`, Backend scope는 `backend`를 사용합니다.
 - Frontend와 Backend는 Task, Branch, Commit, PR을 분리합니다.
