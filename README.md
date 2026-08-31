@@ -42,3 +42,7 @@ python3 -m unittest discover -s backend -p "test_*.py"
 8. Issue가 닫혔는지 확인하고 상태를 `Done`으로 변경합니다.
 
 자세한 규칙은 [CONTRIBUTING.md](CONTRIBUTING.md)를 확인합니다.
+
+## 개인별 Merge Conflict 실습
+
+팀원 네 명에게 동일한 충돌 Issue와 PR이 하나씩 제공됩니다. 각자 본인 Issue에 적힌 개인 연습용 base Branch에서 충돌을 해결하고, 지정된 다른 팀원의 Review를 받은 뒤 Merge합니다. 개인 연습용 Branch는 `dev`나 `main`에 Merge하지 않습니다.
