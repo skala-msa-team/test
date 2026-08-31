@@ -1,1 +1,1 @@
-message=기본 안내 문구
+message=gayeon9-9 개인 base Branch 문구
