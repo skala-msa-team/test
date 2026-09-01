@@ -1,1 +1,1 @@
-message=J5-K 작업 Branch 문구
+message=J5-K 개인 base Branch 문구
